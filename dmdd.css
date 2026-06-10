@@ -1,0 +1,72 @@
+body {
+    background-image: url("stars-background .gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1 {
+  color:ghostwhite;
+  text-align: center;
+}
+
+h2 {
+  color: whitesmoke;
+  text-align:center;
+  }
+  h3 {
+  color: whitesmoke;
+  text-align:center;
+  }
+
+p {
+    color:lightgrey;
+    text-align: center;
+
+}
+.column {
+  float: left;
+  width: 30.33%;
+  padding:50px;
+  }
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.center {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+li{
+    text-align: center;
+}
